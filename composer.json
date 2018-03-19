@@ -1,0 +1,20 @@
+{
+    "name": "xbsoft/base",
+    "description": "base package of xbsoft",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "authors": [
+        {
+            "name": "enze.wei",
+            "email": "enzewei@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload" : {
+		"psr-4" : {
+			"xb\\" : "vendor/xbsoft/"
+		}
+	}
+}
