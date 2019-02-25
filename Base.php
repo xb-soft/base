@@ -19,6 +19,8 @@ class Base {
 	 */
 	public static $service = [];
 	
+	public static $app = [];
+	
 	/**
 	 * create object
 	 * [php >= 5.6]
